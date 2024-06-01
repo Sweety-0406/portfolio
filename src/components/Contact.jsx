@@ -103,7 +103,7 @@ export const Contact = () => {
             />
           </label>
 
-           <button type='submit' className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-primary rounded-xl'>
+           <button type='submit' className='bg-indigo-950 hover:bg-indigo-900 ml-1 py-3 px-8 outline-none w-fit text-white font-bold shadow-primary rounded-xl'>
             {loading?'Sending...' : 'Send'}
            </button>
         </form>
