@@ -44,6 +44,7 @@ export {
   creator,
   mobile,
   blog,
+  pixel,
   homeRental,
   shoppingHub,
   web,
