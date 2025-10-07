@@ -22,6 +22,7 @@ import {
     shoppingHub,
     homeRental,
     blog,
+    pixel,
     nextjs,
   } from "../assets";
   
@@ -221,28 +222,6 @@ import {
       source_code_link: "https://github.com/Sweety-0406/airbnb_again",
     },
     {
-      name: "Blogifier - Your blogs",
-      description:
-        "Web application that enables users to search for blogs , view blogs as their interest, post and delete their own blogs, one can comment on blog and they can also add their favorite blogs to wishlist.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      live_link : 'https://blog-application-nine-nu.vercel.app/',
-      image: blog,
-      source_code_link: "https://github.com/Sweety-0406/blog-application",
-    },
-    {
       name: "ShoppingHub - Admin",
       description:
         "Shopkeepers can create their own stores, categorize products with billboards, colors, and sizes, and manage them via a detailed dashboard. Customers can make payments, which are displayed in the order section, and enjoy a customizable theme changer.",
@@ -264,6 +243,28 @@ import {
       image: shoppingHub,
       source_code_link: "https://github.com/Sweety-0406/e-commerce-admin",
     },
+    {
+      name: "PixelForge-Online Designing Platform",
+      description:
+        "Built a cutting-edge web design editor featuring AI-powered creative tools, enabling users to design, and manage projects efficiently.",
+      tags: [
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Postgres",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      live_link : 'https://pixelforge-xi.vercel.app/',
+      image: pixel,
+      source_code_link: "https://github.com/Sweety-0406/canva",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
