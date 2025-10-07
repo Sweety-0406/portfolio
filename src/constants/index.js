@@ -200,6 +200,28 @@ import {
   
   const projects = [
     {
+      name: "PixelForge-Online Designing Platform",
+      description:
+        "Built a cutting-edge web design editor featuring AI-powered creative tools, enabling users to design, and manage projects efficiently.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Postgres",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      live_link : 'https://pixelforge-xi.vercel.app/',
+      image: pixel,
+      source_code_link: "https://github.com/Sweety-0406/canva",
+    },
+    {
       name: "MKS - Holiday home rental",
       description:
         "Web-based platform that allows users to search, book, and manage home rentals from various providers, providing a convenient and efficient solution for accommodation needs.",
@@ -242,29 +264,8 @@ import {
       live_link : 'https://e-commerce-admin-ten-hazel.vercel.app/',
       image: shoppingHub,
       source_code_link: "https://github.com/Sweety-0406/e-commerce-admin",
-    },
-    {
-      name: "PixelForge-Online Designing Platform",
-      description:
-        "Built a cutting-edge web design editor featuring AI-powered creative tools, enabling users to design, and manage projects efficiently.",
-      tags: [
-        {
-          name: "next",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Postgres",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      live_link : 'https://pixelforge-xi.vercel.app/',
-      image: pixel,
-      source_code_link: "https://github.com/Sweety-0406/canva",
     }
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };
