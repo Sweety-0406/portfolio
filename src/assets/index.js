@@ -5,6 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import blog from "./blog.png";
+import pixel from "./pixel.png";
 import homeRental from "./homeRental.png";
 import shoppingHub from "./shoppingHub.png";
 import menu from "./menu.svg";
